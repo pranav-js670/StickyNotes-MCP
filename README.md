@@ -2,8 +2,6 @@
 
 A simple Python-based MCP (Model Context Protocol) server project – Sticky Notes – that demonstrates the creation of custom tools, resources, and prompts for integration with AI assistants like the Claude Desktop App.
 
-![MCP Logo](https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.png)
-
 ## Overview
 
 Large Language Models (LLMs) such as Claude and GPT-4 are excellent at generating text but struggle when they need to interact with external data or perform real-world actions. The **Model Context Protocol (MCP)** addresses this by defining a standard, modular way for LLM applications to communicate with external tools, data sources, and services. MCP follows a client-host-server pattern and uses stateful, JSON-RPC–based messages to ensure that only the necessary context is exchanged—improving scalability, security, and flexibility.
@@ -14,19 +12,19 @@ This project is a starter implementation of an MCP server using the official Pyt
 
 MCP is an emerging open standard introduced by Anthropic to streamline the way LLMs interact with external tools and data. Its main advantages include:
 
-# Unified Integration:
+## Unified Integration:
 
 Reduces the need for custom integrations by standardizing how applications call external services.
 
-# Modularity & Scalability:
+## Modularity & Scalability:
 
 Allows developers to build once and use across many applications – creating a vast ecosystem of plug-and-play components.
 
-# Stateful Sessions & Context Management:
+## Stateful Sessions & Context Management:
 
 Supports multi-turn dialogues, preserving context over multiple interactions.
 
-# Enhanced Security:
+## Enhanced Security:
 
 Ensures that each tool receives only the necessary context, protecting sensitive data with sandboxing and capability negotiation.
 
